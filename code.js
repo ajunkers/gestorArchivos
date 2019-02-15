@@ -1,3 +1,7 @@
-function edit(){
+function editar(){
+	
+}
+
+function guardado(){
 
 }
