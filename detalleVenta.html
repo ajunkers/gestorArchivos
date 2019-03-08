@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="code.js"></script>
+	<!-- BOOTSRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+	<!-- Barra de navegación -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#"><img src="img/user.png" alt="user options" height="30" width="30" class="img-responsive"></a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Perfil</a>
+							<a class="dropdown-item" href="#">Cerrar sesión</a>
+						</div>
+				</li>
+			</ul>
+		</nav>
+		<br>
+	<!-- Titulo -->
+		<div class="row bg-dark d-flex justify-content-center">
+			<h1 class="bg-dark text-white">Venta</h1>
+		</div>
+		<br>
+		<!-- INFO Client -->
+		<div class="row">
+			<div class="col"></div>
+			<div class="form-group col">
+				<label for="name">ID:</label>
+				<input type="text" class="form-control" id="name" disabled value="1">
+			</div>
+			<div class="form-group col">
+				<label for="fLastName">Fecha de creación:</label>
+				<input type="text" class="form-control" id="fLastName" disabled value="27/07/2017">
+			</div>
+			<div class="form-group col">
+				<label for="sLastName">Fecha última modificación:</label>
+				<input type="text" class="form-control" id="sLastName" disabled value="18/12/2017">
+			</div>
+			<div class="col"></div>
+		</div>
+
+		<div class="row">
+			<h4>Facturas</h4> 
+			<img src="img/agregar.png" class="agregar" alt="agregar archivo de tipo factura">
+		</div>
+			<div class="tabla blan">
+				<div class="encabezado">
+					<div class="row">
+						<div class="col-lg-2">Nombre</div>
+						<div class="col-lg-2">Fecha modificación</div>
+						<div class="col-lg-2">Estado</div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+				<hr>
+				<div class="cuerpo">
+					<div class="row">
+						<div class="col-lg-2">factura150.pdf</div>
+						<div class="col-lg-2">18/12/2017</div>
+						<div class="col-lg-2">Pausa</div>
+						<div class="col-lg-2"><img src="img/visualizar.png" class="ver" alt="Ver archivo de tipo factura"></div>
+						<div class="col-lg-2"><img src="img/editNegro.png" class="editar" alt="Editar archivo de tipo factura"></div>
+						<div class="col-lg-2"><img src="img/descarga.png" class="descarga" alt="Descargar archivo de tipo factura"></div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-2">factura25.pdf</div>
+						<div class="col-lg-2">08/11/2017</div>
+						<div class="col-lg-2">Espera</div>
+						<div class="col-lg-2"><img src="img/visualizar.png" class="ver" alt="Ver archivo de tipo factura"></div>
+						<div class="col-lg-2"><img src="img/editNegro.png" class="editar" alt="Editar archivo de tipo factura"></div>
+						<div class="col-lg-2"><img src="img/descarga.png" class="descarga" alt="Descargar archivo de tipo factura"></div>
+					</div>
+				</div>
+			</div>
+
+
+		<br>
+		<div class="row">
+			<h4>Albaran</h4>
+			<img src="img/agregar.png" class="agregar">
+		</div>
+		<div class="tabla blan">
+			<div class="encabezado">
+				<div class="row">
+					<div class="col-lg-2">Nombre</div>
+					<div class="col-lg-2">Fecha modificación</div>
+					<div class="col-lg-2">Estado</div>
+					<div class="col-lg-2"></div>
+					<div class="col-lg-2"></div>
+					<div class="col-lg-2"></div>
+				</div>
+			</div>
+			<hr>
+			<div class="cuerpo">
+				<div class="row">
+					<div class="col-lg-2">albaran32.pdf</div>
+					<div class="col-lg-2">18/12/2017</div>
+					<div class="col-lg-2">Pausa</div>
+					<div class="col-lg-2"><img src="img/visualizar.png" class="ver" alt="Ver archivo de tipo albaran"></div>
+					<div class="col-lg-2"><img src="img/editNegro.png" class="editar" alt="Editar archivo de tipo albaran"></div>
+					<div class="col-lg-2"><img src="img/descarga.png" class="descarga" alt="Descargar archivo de tipo albaran"></div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-2">albaran82.pdf</div>
+					<div class="col-lg-2">08/11/2017</div>
+					<div class="col-lg-2">Espera</div>
+					<div class="col-lg-2"><img src="img/visualizar.png" class="ver" alt="Ver archivo de tipo albaran"></div>
+					<div class="col-lg-2"><img src="img/editNegro.png" class="editar" alt="Editar archivo de tipo albaran"></div>
+					<div class="col-lg-2"><img src="img/descarga.png" class="descarga" alt="Descargar archivo de tipo albaran"></div>
+				</div>
+			</div>
+		</div>
+
+
+		<br>
+		<div class="row">
+			<h4>Tipo3</h4>
+			<img src="img/agregar.png" class="agregar">
+		</div>
+		<div class="tabla blan">
+				<div class="encabezado">
+					<div class="row">
+						<div class="col-lg-2">Nombre</div>
+						<div class="col-lg-2">Fecha modificación</div>
+						<div class="col-lg-2">Estado</div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+				<hr>
+				<div class="cuerpo">
+					<div class="row">
+						<div class="col-lg-2">tipo350.pdf</div>
+						<div class="col-lg-2">18/12/2017</div>
+						<div class="col-lg-2">Pausa</div>
+						<div class="col-lg-2"><img src="img/visualizar.png" class="ver" alt="Ver archivo de tipo tipo3"></div>
+						<div class="col-lg-2"><img src="img/editNegro.png" class="editar" alt="Editar archivo de tipo tipo3"></div>
+						<div class="col-lg-2"><img src="img/descarga.png" class="descarga" alt="Descargar archivo de tipo tipo3"></div>
+					</div>
+				</div>
+			</div>
+
+
+
+		<br>
+		<div class="row">
+			<h4>Tipo4</h4>
+			<img src="img/agregar.png" class="agregar">
+		</div>
+		<div class="tabla blan">
+				<div class="encabezado">
+					<div class="row">
+						<div class="col-lg-2">Nombre</div>
+						<div class="col-lg-2">Fecha modificación</div>
+						<div class="col-lg-2">Estado</div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+				<hr>
+				<div class="cuerpo">
+					<div class="row">
+						<div class="col-lg-2">tipo450.pdf</div>
+						<div class="col-lg-2">18/12/2017</div>
+						<div class="col-lg-2">Pausa</div>
+						<div class="col-lg-2"><img src="img/visualizar.png" class="ver" alt="Ver archivo de tipo tipo4"></div>
+						<div class="col-lg-2"><img src="img/editNegro.png" class="editar" alt="Editar archivo de tipo tipo4"></div>
+						<div class="col-lg-2"><img src="img/descarga.png" class="descarga" alt="Descargar archivo de tipo tipo4"></div>
+					</div>
+				</div>
+			</div>
+
+
+		<br>
+		<div class="row">
+			<h4>Presupuestos</h4>
+			<img src="img/agregar.png" class="agregar">
+		</div>	
+		<div class="tabla blan">
+				<div class="encabezado">
+					<div class="row">
+						<div class="col-lg-2">Nombre</div>
+						<div class="col-lg-2">Fecha modificación</div>
+						<div class="col-lg-2">Estado</div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+				<hr>
+				<div class="cuerpo">
+					<div class="row">
+						<div class="col-lg-2">pesupuesto76.pdf</div>
+						<div class="col-lg-2">18/12/2017</div>
+						<div class="col-lg-2">Pausa</div>
+						<div class="col-lg-2"><img src="img/visualizar.png" class="ver" alt="Ver archivo de tipo presupuesto"></div>
+						<div class="col-lg-2"><img src="img/editNegro.png" class="editar" alt="Editar archivo de tipo presupuesto"></div>
+						<div class="col-lg-2"><img src="img/descarga.png" class="descarga" alt="Descargar archivo de tipo presupuesto"></div>
+					</div>
+				</div>
+			</div>
+
+
+
+	</div>
+</body>
+</html>
